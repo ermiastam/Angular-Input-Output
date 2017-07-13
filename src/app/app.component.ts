@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+public counter:number = 1;
+public currentValue:number = 1;
+getCurrentValue(current){
+ this.currentValue = current;
+}
+
 }
